@@ -1,0 +1,77 @@
+{
+    "关卡名":{
+        "倒计时（秒）":60,
+        "本关需要收获的最低蔬菜数（株）":4,
+        "目标植物的属性":{"名字":"目标植物1", "血量（点）":6, "成熟期（秒）":24, "害虫出现时间（秒）":11},
+        "害虫的属性":[
+            {"名字":"害虫1", "血量（点）":6, "攻击力(点每秒)":1, "成熟期（秒）":6},
+            {"名字":"害虫2", "血量（点）":6, "攻击力(点每秒)":2, "成熟期（秒）":6},
+            {"......":"........"}
+        ],
+        "驱虫植物的属性":[
+            {"名字":"驱虫植物1", "攻击力(点每秒)":1, "成熟期（秒）":10},
+            {"名字":"驱虫植物2", "攻击力(点每秒)":2, "成熟期（秒）":10},
+            {"......":"........"}
+        ]
+    },
+
+    "winter":{
+        "countdown":60,
+        "aimedVegetables":1,
+        "aimedVegetableType":{"name":"grass", "hp":6, "maturingAge":18, "pestAppearingTime":12},
+        "pestTypes":[
+            {"name":"caterpillar", "hp":6, "attack":1, "maturingAge":6}
+        ],
+        "fightingVegetableTypes":[
+            {"name":"lavender", "attack":1, "maturingAge":10}
+        ]
+    },
+
+    "spring":{
+        "countdown":60,
+        "aimedVegetables":2,
+        "aimedVegetableType":{"name":"sunflower", "hp":6, "maturingAge":25, "pestAppearingTime":19},
+        "pestTypes":[
+            {"name":"caterpillar", "hp":6, "attack":1, "maturingAge":6},
+            {"name":"snail", "hp":6, "attack":2, "maturingAge":6}
+        ],
+        "fightingVegetableTypes":[
+            {"name":"lavender", "attack":1, "maturingAge":10},
+            {"name":"mugwort", "attack":2, "maturingAge":10}
+        ]
+    },
+
+    "autumn":{
+        "countdown":60,
+        "aimedVegetables":3,
+        "aimedVegetableType":{"name":"orange", "hp":6, "maturingAge":24, "pestAppearingTime":18},
+        "pestTypes":[
+            {"name":"caterpillar", "hp":6, "attack":1, "maturingAge":6},
+            {"name":"snail", "hp":6, "attack":2, "maturingAge":6},
+            {"name":"butterfly", "hp":6, "attack":3, "maturingAge":6}
+        ],
+        "fightingVegetableTypes":[
+            {"name":"lavender", "attack":1, "maturingAge":10},
+            {"name":"mugwort", "attack":2, "maturingAge":10},
+            {"name":"AfricanDaisy", "attack":3, "maturingAge":10}
+        ]
+    },
+
+    "summer":{
+        "countdown":60,
+        "aimedVegetables":4,
+        "aimedVegetableType":{"name":"eggplant", "hp":6, "maturingAge":26, "pestAppearingTime":20},
+        "pestTypes":[
+            {"name":"caterpillar", "hp":6, "attack":1, "maturingAge":6},
+            {"name":"snail", "hp":6, "attack":2, "maturingAge":6},
+            {"name":"butterfly", "hp":6, "attack":3, "maturingAge":6},
+            {"name":"aphid", "hp":6, "attack":4, "maturingAge":6}
+        ],
+        "fightingVegetableTypes":[
+            {"name":"lavender", "attack":1, "maturingAge":10},
+            {"name":"mugwort", "attack":2, "maturingAge":10},
+            {"name":"AfricanDaisy", "attack":3, "maturingAge":10},
+            {"name":"callaLily", "attack":4, "maturingAge":10}
+        ]
+    }
+}

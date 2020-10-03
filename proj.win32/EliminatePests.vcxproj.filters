@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{3472181b-5ca2-411f-8841-7b5e1a0aae57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\GameScene">
+      <UniqueIdentifier>{3128160b-3792-41d4-a595-cb364ec627b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\GameScene\Layer">
+      <UniqueIdentifier>{a7581acf-aa56-4877-862c-5b1fbc68a7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\QE">
+      <UniqueIdentifier>{f0a9aa66-68ee-4920-8c27-faf78a2a9289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene\GameScene\GameRoleClass">
+      <UniqueIdentifier>{1cffc612-8058-4bb0-9f7c-77b29e41decd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QAnimate.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QMenu.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QObject.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QScene.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QSprite.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectLevelScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StartGameScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Vegetable.cpp">
+      <Filter>src\Scene\GameScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QJson.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CurrentLevelData.cpp">
+      <Filter>src\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\QTMX.cpp">
+      <Filter>src\QE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TimeLayer.cpp">
+      <Filter>src\Scene\GameScene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pest.cpp">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FightingVegetable.cpp">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AimedVegetable.cpp">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QAnimate.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QE.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QFileUtils.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QLayer.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QMenu.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QObject.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QScene.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QSprite.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectLevelScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StartGameScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Vegetable.h">
+      <Filter>src\Scene\GameScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QJson.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CurrentLevelData.h">
+      <Filter>src\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QTMX.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QDesignMode.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\QType.h">
+      <Filter>src\QE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TimeLayer.h">
+      <Filter>src\Scene\GameScene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameRole.h">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pest.h">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FightingVegetable.h">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AimedVegetable.h">
+      <Filter>src\Scene\GameScene\GameRoleClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
